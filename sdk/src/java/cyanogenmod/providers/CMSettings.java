@@ -3495,6 +3495,12 @@ public final class CMSettings {
         public static final String POWER_NOTIFICATIONS_RINGTONE = "power_notifications_ringtone";
 
         /**
+         * URI for battery fully charged sounds
+         * @hide
+         */
+        public static final String BATTERY_FULLY_CHARGED_RINGTONE = "battery_fully_charged_ringtone";
+
+        /**
          * @hide
          */
         public static final String ZEN_DISABLE_DUCKING_DURING_MEDIA_PLAYBACK =
@@ -3537,6 +3543,7 @@ public final class CMSettings {
                 CMSettings.Global.WAKE_WHEN_PLUGGED_OR_UNPLUGGED,
                 CMSettings.Global.POWER_NOTIFICATIONS_VIBRATE,
                 CMSettings.Global.POWER_NOTIFICATIONS_RINGTONE,
+                CMSettings.Global.BATTERY_FULLY_CHARGED_RINGTONE,
                 CMSettings.Global.ZEN_DISABLE_DUCKING_DURING_MEDIA_PLAYBACK,
                 CMSettings.Global.WIFI_AUTO_PRIORITIES_CONFIGURATION
         };
